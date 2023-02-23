@@ -7,9 +7,11 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeSet;
+import lombok.experimental.UtilityClass;
 import lombok.extern.java.Log;
 
-class Task1Util {
+@UtilityClass
+final class Task1Util {
 
     /**
      * Перевести строку в сумму.
